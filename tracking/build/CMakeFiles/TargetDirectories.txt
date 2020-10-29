@@ -1,0 +1,3 @@
+/home/nvidia/tensorrtx/yolov5/tracking/build/CMakeFiles/rebuild_cache.dir
+/home/nvidia/tensorrtx/yolov5/tracking/build/CMakeFiles/deepsort.dir
+/home/nvidia/tensorrtx/yolov5/tracking/build/CMakeFiles/edit_cache.dir
