@@ -1,0 +1,27 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/xiaoning/Desktop/ped
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:164 (message):
+  Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES)
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:445 (_FPHSA_FAILURE_MESSAGE)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindOpenMP.cmake:529 (find_package_handle_standard_args)
+  CMakeLists.txt:11 (FIND_PACKAGE)
+
+
+CMake Warning (dev) in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindOpenMP.cmake:
+  Policy CMP0011 is not set: Included scripts do automatic cmake_policy PUSH
+  and POP.  Run "cmake --help-policy CMP0011" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  The included script
+
+    /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindOpenMP.cmake
+
+  affects policy settings.  CMake is implying the NO_POLICY_SCOPE option for
+  compatibility, so the effects are applied to the including context.
+Call Stack (most recent call first):
+  CMakeLists.txt:11 (FIND_PACKAGE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeError.log".

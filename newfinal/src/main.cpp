@@ -4,7 +4,6 @@
 
 #include "DetectAndSort.h"
 #include <iostream>
-#include <pthread.h>
 
 
 int main(){
@@ -12,8 +11,6 @@ int main(){
     DetectAndSort d;
     //load model
     char* engineFile = "/home/nvidia/newfinal/model/model.engine";
-//    d.encrypModel(engineFile);
-
     d.loadModel(engineFile);
     //detect and track
     cv::Mat frame;

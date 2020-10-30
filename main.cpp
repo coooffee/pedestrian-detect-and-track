@@ -11,7 +11,7 @@ int main(){
 
     DetectAndSort d;
     //load model
-//    char* engineFile = "/home/nvidia/final/build/yolov5s_960_fp16_n2n.engine";
+//    char* engineFile = "/home/nvidia/final/build/model.engine";
 //    d.encrypModel(engineFile);
 
     char* engineFile = "/home/nvidia/final/model.engine";

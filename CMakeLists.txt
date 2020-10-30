@@ -53,7 +53,7 @@ target_link_libraries(main ${OpenCV_LIBS} DetectAndSort)
 
 #add_executable(demo_omp ${PROJECT_SOURCE_DIR}/demo_omp.cpp)
 #target_link_libraries(demo_omp DetectAndSort)
-#
+
 add_executable(yolov5_videox ${PROJECT_SOURCE_DIR}/yolov5_videox.cpp)
 target_link_libraries(yolov5_videox ${OpenCV_LIBS} nvinfer cudart yololayer deepsort)
 

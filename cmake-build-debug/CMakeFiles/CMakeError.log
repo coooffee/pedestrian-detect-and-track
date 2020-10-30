@@ -1,0 +1,474 @@
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77f87/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_77f87.dir/build.make CMakeFiles/cmTC_77f87.dir/build
+Building C object CMakeFiles/cmTC_77f87.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp=libomp -v   -o CMakeFiles/cmTC_77f87.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_77f87.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_77f87/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5266/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c5266.dir/build.make CMakeFiles/cmTC_c5266.dir/build
+Building C object CMakeFiles/cmTC_c5266.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp=libiomp5 -v   -o CMakeFiles/cmTC_c5266.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libiomp5' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_c5266.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_c5266/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cb4c9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cb4c9.dir/build.make CMakeFiles/cmTC_cb4c9.dir/build
+Building C object CMakeFiles/cmTC_cb4c9.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_cb4c9.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_cb4c9.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_cb4c9/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d667b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d667b.dir/build.make CMakeFiles/cmTC_d667b.dir/build
+Building C object CMakeFiles/cmTC_d667b.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Xclang -fopenmp -v   -o CMakeFiles/cmTC_d667b.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.11.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-cpu core2 -target-linker-version 274.2 -v -dwarf-column-info -debugger-tuning=lldb -coverage-file /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d667b.dir/OpenMPTryFlag.c.o -resource-dir /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0 -fdebug-compilation-dir /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.11.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_d667b.dir/OpenMPTryFlag.c.o -x c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 8.0.0 (clang-800.0.42.1) default target x86_64-apple-darwin15.6.0
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include
+ /Library/Developer/CommandLineTools/usr/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+/Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d667b.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_d667b/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38026/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_38026.dir/build.make CMakeFiles/cmTC_38026.dir/build
+Building CXX object CMakeFiles/cmTC_38026.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fopenmp=libomp -v   -o CMakeFiles/cmTC_38026.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_38026.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_38026/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a82c4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a82c4.dir/build.make CMakeFiles/cmTC_a82c4.dir/build
+Building CXX object CMakeFiles/cmTC_a82c4.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fopenmp=libiomp5 -v   -o CMakeFiles/cmTC_a82c4.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libiomp5' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_a82c4.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_a82c4/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35650/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_35650.dir/build.make CMakeFiles/cmTC_35650.dir/build
+Building CXX object CMakeFiles/cmTC_35650.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_35650.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_35650.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_35650/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1915d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1915d.dir/build.make CMakeFiles/cmTC_1915d.dir/build
+Building CXX object CMakeFiles/cmTC_1915d.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Xclang -fopenmp -v   -o CMakeFiles/cmTC_1915d.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.11.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-cpu core2 -target-linker-version 274.2 -v -dwarf-column-info -debugger-tuning=lldb -coverage-file /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_1915d.dir/OpenMPTryFlag.cpp.o -resource-dir /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0 -stdlib=libc++ -fdeprecated-macro -fdebug-compilation-dir /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.11.0 -fencode-extended-block-signature -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_1915d.dir/OpenMPTryFlag.cpp.o -x c++ /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 8.0.0 (clang-800.0.42.1) default target x86_64-apple-darwin15.6.0
+ignoring nonexistent directory "/usr/include/c++/v1"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1
+ /usr/local/include
+ /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include
+ /Library/Developer/CommandLineTools/usr/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+/Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1915d.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_1915d/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48a61/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_48a61.dir/build.make CMakeFiles/cmTC_48a61.dir/build
+Building C object CMakeFiles/cmTC_48a61.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp=libomp -v   -o CMakeFiles/cmTC_48a61.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_48a61.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_48a61/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b6b0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3b6b0.dir/build.make CMakeFiles/cmTC_3b6b0.dir/build
+Building C object CMakeFiles/cmTC_3b6b0.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp=libiomp5 -v   -o CMakeFiles/cmTC_3b6b0.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libiomp5' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_3b6b0.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_3b6b0/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90c15/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_90c15.dir/build.make CMakeFiles/cmTC_90c15.dir/build
+Building C object CMakeFiles/cmTC_90c15.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_90c15.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_90c15.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_90c15/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51b32/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_51b32.dir/build.make CMakeFiles/cmTC_51b32.dir/build
+Building C object CMakeFiles/cmTC_51b32.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Xclang -fopenmp -v   -o CMakeFiles/cmTC_51b32.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.11.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-cpu core2 -target-linker-version 274.2 -v -dwarf-column-info -debugger-tuning=lldb -coverage-file /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_51b32.dir/OpenMPTryFlag.c.o -resource-dir /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0 -fdebug-compilation-dir /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.11.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_51b32.dir/OpenMPTryFlag.c.o -x c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 8.0.0 (clang-800.0.42.1) default target x86_64-apple-darwin15.6.0
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include
+ /Library/Developer/CommandLineTools/usr/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+/Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_51b32.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_51b32/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cca7d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cca7d.dir/build.make CMakeFiles/cmTC_cca7d.dir/build
+Building CXX object CMakeFiles/cmTC_cca7d.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fopenmp=libomp -v   -o CMakeFiles/cmTC_cca7d.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_cca7d.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_cca7d/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2d700/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2d700.dir/build.make CMakeFiles/cmTC_2d700.dir/build
+Building CXX object CMakeFiles/cmTC_2d700.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fopenmp=libiomp5 -v   -o CMakeFiles/cmTC_2d700.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libiomp5' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_2d700.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_2d700/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_58410/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_58410.dir/build.make CMakeFiles/cmTC_58410.dir/build
+Building CXX object CMakeFiles/cmTC_58410.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_58410.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_58410.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_58410/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fdbcc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fdbcc.dir/build.make CMakeFiles/cmTC_fdbcc.dir/build
+Building CXX object CMakeFiles/cmTC_fdbcc.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Xclang -fopenmp -v   -o CMakeFiles/cmTC_fdbcc.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.11.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-cpu core2 -target-linker-version 274.2 -v -dwarf-column-info -debugger-tuning=lldb -coverage-file /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_fdbcc.dir/OpenMPTryFlag.cpp.o -resource-dir /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0 -stdlib=libc++ -fdeprecated-macro -fdebug-compilation-dir /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.11.0 -fencode-extended-block-signature -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_fdbcc.dir/OpenMPTryFlag.cpp.o -x c++ /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 8.0.0 (clang-800.0.42.1) default target x86_64-apple-darwin15.6.0
+ignoring nonexistent directory "/usr/include/c++/v1"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1
+ /usr/local/include
+ /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include
+ /Library/Developer/CommandLineTools/usr/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+/Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_fdbcc.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_fdbcc/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fd6dc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fd6dc.dir/build.make CMakeFiles/cmTC_fd6dc.dir/build
+Building C object CMakeFiles/cmTC_fd6dc.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp=libomp -v   -o CMakeFiles/cmTC_fd6dc.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_fd6dc.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_fd6dc/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4b12e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4b12e.dir/build.make CMakeFiles/cmTC_4b12e.dir/build
+Building C object CMakeFiles/cmTC_4b12e.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp=libiomp5 -v   -o CMakeFiles/cmTC_4b12e.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libiomp5' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_4b12e.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_4b12e/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2b336/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2b336.dir/build.make CMakeFiles/cmTC_2b336.dir/build
+Building C object CMakeFiles/cmTC_2b336.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_2b336.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_2b336.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_2b336/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b8790/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b8790.dir/build.make CMakeFiles/cmTC_b8790.dir/build
+Building C object CMakeFiles/cmTC_b8790.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Xclang -fopenmp -v   -o CMakeFiles/cmTC_b8790.dir/OpenMPTryFlag.c.o   -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.11.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-cpu core2 -target-linker-version 274.2 -v -dwarf-column-info -debugger-tuning=lldb -coverage-file /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b8790.dir/OpenMPTryFlag.c.o -resource-dir /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0 -fdebug-compilation-dir /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.11.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_b8790.dir/OpenMPTryFlag.c.o -x c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 8.0.0 (clang-800.0.42.1) default target x86_64-apple-darwin15.6.0
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include
+ /Library/Developer/CommandLineTools/usr/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+/Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b8790.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_b8790/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aef79/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aef79.dir/build.make CMakeFiles/cmTC_aef79.dir/build
+Building CXX object CMakeFiles/cmTC_aef79.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fopenmp=libomp -v   -o CMakeFiles/cmTC_aef79.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_aef79.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_aef79/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7b89f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7b89f.dir/build.make CMakeFiles/cmTC_7b89f.dir/build
+Building CXX object CMakeFiles/cmTC_7b89f.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fopenmp=libiomp5 -v   -o CMakeFiles/cmTC_7b89f.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libiomp5' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_7b89f.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_7b89f/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76841/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_76841.dir/build.make CMakeFiles/cmTC_76841.dir/build
+Building CXX object CMakeFiles/cmTC_76841.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_76841.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_76841.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_76841/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6aaa0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6aaa0.dir/build.make CMakeFiles/cmTC_6aaa0.dir/build
+Building CXX object CMakeFiles/cmTC_6aaa0.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Xclang -fopenmp -v   -o CMakeFiles/cmTC_6aaa0.dir/OpenMPTryFlag.cpp.o -c /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.11.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-cpu core2 -target-linker-version 274.2 -v -dwarf-column-info -debugger-tuning=lldb -coverage-file /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_6aaa0.dir/OpenMPTryFlag.cpp.o -resource-dir /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0 -stdlib=libc++ -fdeprecated-macro -fdebug-compilation-dir /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.11.0 -fencode-extended-block-signature -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_6aaa0.dir/OpenMPTryFlag.cpp.o -x c++ /Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 8.0.0 (clang-800.0.42.1) default target x86_64-apple-darwin15.6.0
+ignoring nonexistent directory "/usr/include/c++/v1"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1
+ /usr/local/include
+ /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include
+ /Library/Developer/CommandLineTools/usr/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+/Users/xiaoning/Desktop/ped/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6aaa0.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_6aaa0/fast] Error 2
+
+
+

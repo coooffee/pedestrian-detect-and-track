@@ -491,7 +491,7 @@ int main(int argc, char** argv) {
     char *trtModelStream{nullptr};
     size_t size{0};
     std::string engine_name = STR2(NET);
-    engine_name = "yolov5s_960_fp16_n2n.engine";
+    engine_name = "model.engine";
     std::cout << engine_name << std::endl;
     if (argc == 2 && std::string(argv[1]) == "-s") {
         IHostMemory* modelStream{nullptr};

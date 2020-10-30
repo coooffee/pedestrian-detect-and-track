@@ -99,7 +99,7 @@ bool isMacAvailable() {
             std::to_string(this_mac[4]&0xff)+std::to_string(this_mac[5]&0xff);
 //    std::cout<<macAddress<<std::endl;
     delete [] this_mac;
-    if(macAddress=="7217645710114")
+    if(macAddress=="7217645710119")
         return true;
     std::cout<<"Unauthorized Device"<<std::endl;
     return false;
@@ -130,7 +130,7 @@ DetectAndSort::~DetectAndSort(){
 //    }
 //
 //    std::ofstream ofs;
-//    ofs.open("/home/nvidia/final/en_modeln.engine", std::ios::binary);
+//    ofs.open("/home/nvidia/final/model.engine", std::ios::binary);
 //    ofs.write(trtModelStream,size);
 //    ofs.close();
 //    return true;
